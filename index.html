@@ -49,3 +49,22 @@ let pd=0;cv.addEventListener('touchmove',e=>{if(e.touches.length==2){const d=Mat
 function f(){const w=cv.clientWidth,h=cv.clientHeight;if(R.domElement.width!=w*devicePixelRatio){R.setPixelRatio(devicePixelRatio);R.setSize(w,h,false);C.aspect=w/h;C.updateProjectionMatrix()}
 root.rotation.set(rx,ry,0);C.position.set(0,0,z);R.render(S,C);requestAnimationFrame(f)}f();
 </script></body></html>
+<!-- Simulation Graphs Section -->
+<div style="max-width: 800px; margin: 30px auto; padding: 15px; text-align: center; background: #ffffff; color: #333333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  <h2>iKwath Simulation & Performance Graphs</h2>
+
+  <div style="margin-bottom: 25px;">
+    <h3>1. Closed-Loop Simulation (Nominal Cycle)</h3>
+    <img src="IMG-20261007-WA0015.jpg" alt="Closed Loop Simulation" style="width: 100%; border-radius: 8px;">
+  </div>
+
+  <div style="margin-bottom: 25px;">
+    <h3>2. Robustness & Fault-Injection Scenarios</h3>
+    <img src="IMG-20261007-WA0014.jpg" alt="Fault Injection Scenarios" style="width: 100%; border-radius: 8px;">
+  </div>
+
+  <div style="margin-bottom: 25px;">
+    <h3>3. Monte-Carlo Analysis (200 Runs)</h3>
+    <img src="IMG-20261007-WA0013.jpg" alt="Monte Carlo Analysis" style="width: 100%; border-radius: 8px;">
+  </div>
+</div>
